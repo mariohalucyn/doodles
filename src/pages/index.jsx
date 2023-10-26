@@ -130,15 +130,9 @@ function IndexPage() {
           </div>
         </div>
         <div className="slider__images">
-          <div>
-            <Chillin />
-          </div>
-          <div>
-            <Corpo />
-          </div>
-          <div>
-            <IceCream />
-          </div>
+          <div><Chillin /></div>
+          <div><Corpo /></div>
+          <div><IceCream /></div>
         </div>
       </div>
       <div className="monochromeCards">
