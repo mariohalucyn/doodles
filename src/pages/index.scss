@@ -164,7 +164,7 @@
 
 .slider {
   max-width: $screen-xl;
-  margin: 0 auto 9.4rem auto;
+  margin: 9.4rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   overflow: hidden;
@@ -221,7 +221,7 @@
 }
 
 .monochromeCards {
-  padding: 10.2rem;
+  padding: 11.2rem;
   background: black;
   color: white;
 

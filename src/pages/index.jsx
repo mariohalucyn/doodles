@@ -111,24 +111,6 @@ function IndexPage() {
           </ul>
         </div>
       </div>
-      <div className="slider">
-        <div className="slider__heading">
-          <div className="slider__heading-container">
-            <h2>Ipsum dolor sit amet.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque dolorem earum
-              ipsa
-              repellat reprehenderit tenetur totam velit voluptates! Minima?
-            </p>
-            <button type="button" className="filled--button">click here</button>
-          </div>
-        </div>
-        <div className="slider__images">
-          <div><Chillin /></div>
-          <div><Corpo /></div>
-          <div><IceCream /></div>
-        </div>
-      </div>
       <div className="monochromeCards">
         <div className="monochromeCards__heading">
           <h2>
@@ -192,6 +174,24 @@ function IndexPage() {
             </ul>
           </li>
         </ul>
+      </div>
+      <div className="slider">
+        <div className="slider__heading">
+          <div className="slider__heading-container">
+            <h2>Ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque dolorem earum
+              ipsa
+              repellat reprehenderit tenetur totam velit voluptates! Minima?
+            </p>
+            <button type="button" className="filled--button">click here</button>
+          </div>
+        </div>
+        <div className="slider__images">
+          <div><Chillin /></div>
+          <div><Corpo /></div>
+          <div><IceCream /></div>
+        </div>
       </div>
     </main>
   );
