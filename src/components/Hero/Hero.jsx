@@ -6,7 +6,9 @@ function Hero() {
     <main className="hero">
       <div />
       <div>
-        <h1>Adipisicing elit. Debitis, rem?</h1>
+        <h1>
+          Adipisicing elit. Debitis, rem?
+        </h1>
       </div>
     </main>
   );

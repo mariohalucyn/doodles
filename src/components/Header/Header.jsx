@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './header.scss';
+import '../sassStyles/_global.scss';
 import { ReactComponent as Icon } from '../../assets/icons/doodles-icon.svg';
 
 function Hero() {
@@ -12,7 +13,7 @@ function Hero() {
         <li><a href="/"><p>consectetur</p></a></li>
       </ul>
       <div>
-        <button>contact</button>
+        <button type="button" className="filled--button">contact</button>
       </div>
     </main>
   );
