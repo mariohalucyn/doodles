@@ -35,11 +35,7 @@ function IndexPage() {
           <li>
             <Composition />
             <h2>Design</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolores ea explicabo
-              harum,
-              natus nulla?
-            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolores ea explicabo harum, natus nulla?</p>
             <button type="button" className="filled--button">click here</button>
           </li>
           <li>
@@ -73,9 +69,7 @@ function IndexPage() {
           </p>
         </div>
         <div className="about__container">
-          <div>
-            {image}
-          </div>
+          <div>{image}</div>
           <ul>
             <li>
               <label htmlFor="chillin">
