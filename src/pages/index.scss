@@ -80,6 +80,28 @@
   }
 }
 
+.hi {
+  margin: 0 auto 9.4rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__container {
+    background: url('../assets/images/doodles__hi.svg') center;
+    background-size: cover;
+
+    min-height: 100vh;
+  }
+
+  &__heading {
+    background: black;
+    color: white;
+    padding: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .about {
   max-width: $screen-xl;
   margin: 0 auto 9.4rem auto;
@@ -195,28 +217,6 @@
         margin-bottom: 3.6rem;
       }
     }
-  }
-}
-
-.hi {
-  margin: 0 auto 9.4rem auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-
-  &__container {
-    background: url('../assets/images/doodles__hi.svg') center;
-    background-size: cover;
-
-    min-height: 100vh;
-  }
-
-  &__heading {
-    background: black;
-    color: white;
-    padding: 4.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
 
