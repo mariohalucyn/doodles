@@ -31,7 +31,7 @@
 
     Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    Edit `src/pages/index.jsx` to see your site update in real-time!
 
 4.  **Learn more**
 
@@ -47,3 +47,4 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+# doodles
