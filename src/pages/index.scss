@@ -161,19 +161,12 @@
     display: flex;
     scroll-snap-type: x mandatory;
     overflow-x: auto;
+    scroll-padding: 0 2.4rem;
 
     div {
       min-width: 100%;
-      padding: 4.8rem;
-
-      svg {
-        &:first-child {
-          scroll-snap-align: start;
-        }
-        &:last-child {
-          scroll-snap-align: end;
-        }
-      }
+      padding: 0 4.8rem;
+      scroll-snap-align: center;
     }
   }
 
