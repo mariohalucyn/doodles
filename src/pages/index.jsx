@@ -35,7 +35,10 @@ function IndexPage() {
           <li>
             <Composition />
             <h2>Design</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolores ea explicabo harum, natus nulla?</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolores ea explicabo harum, natus
+              nulla?
+            </p>
             <button type="button" className="filled--button">click here</button>
           </li>
           <li>
@@ -177,19 +180,16 @@ function IndexPage() {
       </div>
       <div className="slider">
         <div className="slider__heading">
-          <div className="slider__heading-container">
-            <h2>Ipsum dolor sit amet.</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque dolorem earum
-              ipsa
-              repellat reprehenderit tenetur totam velit voluptates! Minima?
-            </p>
-            <button type="button" className="filled--button">click here</button>
-          </div>
+          <h2>Ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque dolorem earum
+            ipsa
+            repellat reprehenderit tenetur totam velit voluptates! Minima?
+          </p>
+          <button type="button" className="filled--button">click here</button>
         </div>
         <div className="slider__images">
           <div><Chillin /></div>
-          <div><Corpo /></div>
           <div><IceCream /></div>
         </div>
       </div>
